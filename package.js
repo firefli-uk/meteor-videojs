@@ -49,6 +49,8 @@ Package.onUse(function(api) {
 
   client.add(baseLibPath, 'video-js.min.css')
   client.add(baseLibPath, 'video.min.js')
+  client.add(baseLibPath, 'videojs-hls-min.js')
+
 
   // Assets
   const baseAssetPath = ['videojs', 'fonts']
